@@ -1,0 +1,28 @@
+{
+    "name": "raptor-pubsub",
+    "version": "0.1.0-SNAPSHOT",
+    "description": "Support for Pub/Sub communication in the browser",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/raptorjs/raptor-pubsub.git"
+    },
+    "scripts": {
+        "test": "node_modules/.bin/mocha --ui bdd --reporter spec  ./test"
+    },
+    "author": "Patrick Steele-Idem <psteeleidem@ebay.com>",
+    "maintainers": "Patrick Steele-Idem <psteeleidem@ebay.com>",
+    "dependencies": {
+        "raptor-util": "0.1.0-SNAPSHOT",
+        "raptor-listeners": "0.1.0-SNAPSHOT"
+    },
+    "devDependencies": {
+        "mocha": "~1.15.1",
+        "chai": "~1.8.1"
+    },
+    "license": "Apache License v2.0",
+    "bin": {},
+    "main": "lib/index.js",
+    "publishConfig": {
+        "registry": "https://registry.npmjs.org/"
+    }
+}
