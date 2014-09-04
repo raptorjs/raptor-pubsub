@@ -11,7 +11,7 @@
   "author": "Patrick Steele-Idem <pnidem@gmail.com>",
   "maintainers": "Patrick Steele-Idem <pnidem@gmail.com>",
   "dependencies": {
-    "raptor-util": "^0.2.0-beta",
+    "raptor-util": "^1.0.0-beta",
     "events": "^1.0.0"
   },
   "devDependencies": {
