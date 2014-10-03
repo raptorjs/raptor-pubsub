@@ -3,7 +3,7 @@
     "description": "Support for Pub/Sub communication in the browser",
     "repository": {
         "type": "git",
-        "url": "https://github.com/raptorjs3/raptor-pubsub.git"
+        "url": "https://github.com/raptorjs/raptor-pubsub.git"
     },
     "scripts": {
         "test": "node_modules/.bin/mocha --ui bdd --reporter spec  ./test"
