@@ -38,6 +38,9 @@ channel.on('someEvent', function(arg) {
 
 // Publish an event
 channel.emit('someEvent', 'Hello World');
+
+// Removing a channel
+require('raptor-pubsub').removeChannel('my-channel');
 ```
 
 The global pub/sub channel and named channels are simply [EventEmitter](http://nodejs.org/api/events.html#events_class_events_eventemitter) instances.
